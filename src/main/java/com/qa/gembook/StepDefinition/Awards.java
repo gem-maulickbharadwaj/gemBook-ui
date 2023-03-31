@@ -18,6 +18,7 @@ public class Awards extends DriverAction {
     @Given("Check if Award section is present in News Feeds")
     public static void PresenceOfAwardSection() {
         waitSec(3);
+
         OtherPortalsUtils.isElementDisplayed("Verify if Awards grid is present in News Feeds", "Awards grid is present in News Feeds", "Awards grid is not present in News Feeds", Awards_Locators.awardSection);
         OtherPortalsUtils.isElementDisplayed("Verify if Awards Header icon is present", "Awards section header icon is present", "Awards section Header icon is not present", Awards_Locators.awardSectionIcon);
         OtherPortalsUtils.isElementDisplayed("Verify the presence of Year dropdown ", "Year dropdown is present", "Year dropdown is not present", Awards_Locators.awardSelectOption("year"));

@@ -12,9 +12,9 @@
   "jewel_bridge_token": "5a4d0c92-bfed-4500-a09b-85e7ac98ea941676631482410",
   "enter_point": "https://apis.gemecosystem.com/enter-point",
   "prod": {
-    "browserName": "chrome",
+    "browserName": "grid",
     "launchUrl": "https://gembook.geminisolutions.com/#/",
     "browserTimeout": 100,
-    "chromeOptions":"incognito"
+    "chromeOptions" :["--incognito"]
   }
 }
